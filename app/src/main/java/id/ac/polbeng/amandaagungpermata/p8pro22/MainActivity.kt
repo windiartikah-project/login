@@ -36,10 +36,12 @@ class MainActivity : AppCompatActivity(),
             navView.setNavigationItemSelectedListener(this)
             openFragment(R.id.nav_beranda)
         }
+
         override fun onNavigationItemSelected(item: MenuItem): Boolean {
             openFragment(item.itemId)
             return true
         }
+
         private fun openFragment(fragment_id: Int){
             when (fragment_id) {
                 R.id.nav_beranda -> {
