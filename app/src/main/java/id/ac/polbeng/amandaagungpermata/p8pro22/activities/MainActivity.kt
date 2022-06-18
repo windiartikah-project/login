@@ -1,4 +1,4 @@
-package id.ac.polbeng.amandaagungpermata.p8pro22
+package id.ac.polbeng.amandaagungpermata.p8pro22.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,6 +11,10 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.FragmentTransaction
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
+import depandi.polbeng.ac.id.jasaonline.R
+import id.ac.polbeng.amandaagungpermata.p8pro22.fragments.BerandaFragment
+import id.ac.polbeng.amandaagungpermata.p8pro22.fragments.JasaFragment
+import id.ac.polbeng.amandaagungpermata.p8pro22.fragments.ProfileFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(),
